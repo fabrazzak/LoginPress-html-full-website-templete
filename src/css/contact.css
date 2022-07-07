@@ -1,0 +1,60 @@
+.contact-section {
+    background: linear-gradient(#e8f1ff 0%, #e8f1ff 100%);
+}
+
+.contact-form{
+    
+    background:#fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 40px;
+    z-index: 1;
+    position: relative;
+  
+}
+
+.contact-title{
+   font-size:38px ;
+   text-align: center;
+    color: #061f6a;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.contact-img-after{
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (max-width: 768px)
+{
+
+.contact-img-after {
+    position: absolute;
+    bottom: 0%;
+    right: -0%;
+    display: none;
+    
+  
+}
+.contact-title{
+    font-size: 30px;
+}
+
+    
+}
